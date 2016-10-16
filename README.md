@@ -12,9 +12,10 @@ Following the lecture notes I have implemented two algorithms:
 
 ## Week 2
 
-Week 2 continues the introduction to divide-and-conquer paradigm and introduces a new sorting algorithm, quick sort. We saw how performance of this algorithm can vary based on the selection of a pivot element - the element that is used as a separation point for left and right parts of the input unsorted array. Following the lecture notes I have implemented a quick sort algorithm with a possibility to select a pivot element as one from the three available options: 
-  1. The first element of the input array
-  2. The last element  
-  3. The median element
+Week 2 continues the introduction to divide-and-conquer paradigm and introduces a new sorting algorithm, quick sort. We saw how performance of this algorithm can vary based on the selection of a pivot element - the element that is used as a separation point for left and right parts of the input unsorted array. Following the lecture notes I have implemented:
+  1. A quick sort algorithm with user-defined pivot element selection procedure as one of the three available options: 
+    1. The first element of the input array
+    2. The last element  
+    3. The median element
 
 The median element is selected as follows. First we pick three elements from the input array: the very first, the very last and the middle element. Then we sort them in the ascending order and select a median from this sorted array. This element is then used as the pivot element to sort the original input array around. Such procedure, even though requires a bit of extra work, allows for a significant speed improvements on input arrays that are nearly sorted or reverse sorted.
