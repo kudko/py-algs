@@ -1,6 +1,6 @@
 # Algorithms  
 
-Here I am going to post Python implementation of some algorithms that are being discussed in the on-line Stanford course called "Algorithms: Design and Analysis, Part 1". I should point out that **this is not a repo with solutions**, since posting solutions is a violation of [Coursera Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863). Instead, this is a repository that contains Python implementation of some very well-known algorithms that are also available elsewhere in the internet. 
+Here I am going to post Python implementation of some algorithms that are being discussed in the on-line Stanford course called "Algorithms: Design and Analysis, Part 1". I should point out that **this is not a repo with solutions**, since posting solutions is a violation of [Coursera Honor Code](https://learner.coursera.help/hc/en-us/articles/209818863). Instead, this is a repository that contains my own Python implementation of some well-known algorithms that should also be available elsewhere in the internet. 
 
 ## Week 1
 
